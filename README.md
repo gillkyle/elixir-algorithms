@@ -1,21 +1,36 @@
 # Algorithms
 
-**TODO: Add description**
+Simple functions and algorithms to learn and practice with elixir's syntax and patterns.
 
-## Installation
+## Test Functions
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_algorithms` to your list of dependencies in `mix.exs`:
+With elixir installed, you can run algorithms listed in the `lib/algorithms.exs` file by running:
 
-```elixir
-def deps do
-  [
-    {:elixir_algorithms, "~> 0.1.0"}
-  ]
-end
+```
+iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_algorithms](https://hexdocs.pm/elixir_algorithms).
+Which will launch an interactive shell.
+
+The Algorithm module named `Ag` will automatically be loaded into the global namespace. You can then call functions defined in it:
+
+```
+iex(1)> Ag.fizz_buzz_1
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+:ok
+```
 
